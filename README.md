@@ -36,11 +36,30 @@ Explore the entire generated and parsed database dynamically.
   <img src="docs/5_browse_catalog.png" alt="Browse Catalog" width="800"/>
 </p>
 
+## 🚀 Quick Start (Docker Compose)
+
 The absolute easiest way to run the entire stack locally is by using Docker Compose.
 
-1. Ensure you have Docker installed and running.
-2. Clone this repository and navigate to the project root.
-3. Run the following command:
+### Prerequisites: Docker Desktop
+You must have Docker Desktop installed to run the application containers.
+* **Windows**: Open PowerShell and run the following command using `winget`:
+  ```powershell
+  winget install Docker.DockerDesktop
+  ```
+  *(Alternatively, download it from the [Docker Desktop website](https://www.docker.com/products/docker-desktop/).)*
+* **Mac**: Use Homebrew to install it via terminal:
+  ```bash
+  brew install --cask docker
+  ```
+  *(Or download the `.dmg` installer directly from the [Docker Desktop website](https://www.docker.com/products/docker-desktop/).)*
+
+**Important:** Make sure to launch the Docker Desktop application after installing so that the Docker Engine starts running in the background!
+
+---
+
+### Running the App
+1. Clone this repository and navigate to the project root.
+2. Run the following command:
 
 ```bash
 docker-compose up --build
