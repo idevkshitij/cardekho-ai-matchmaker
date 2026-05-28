@@ -55,6 +55,13 @@ You must have Docker Desktop installed to run the application containers.
 
 **Important:** Make sure to launch the Docker Desktop application after installing so that the Docker Engine starts running in the background!
 
+> [!NOTE]
+> **Troubleshooting `failed to connect to the docker API`:**
+> If you get an error saying Docker cannot find the file specified or failed to connect to the daemon, it means the Docker Engine isn't running. 
+> 1. Open your Windows Start Menu or Mac Applications and manually click **Docker Desktop** to launch it.
+> 2. Wait until the indicator in the bottom-left corner of the app says **"Engine running"** (turns green).
+> 3. Restart your terminal and run `docker-compose up --build` again.
+
 ---
 
 ### Running the App
