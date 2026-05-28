@@ -2,6 +2,9 @@
 
 An AI-native car recommendation dashboard built for the modern auto buyer.
 
+> 🚀 **Live Demo:** [https://cardekho-ai-matchmaker.onrender.com/](https://cardekho-ai-matchmaker.onrender.com/)
+> *(Note: The app is hosted on Render's free tier. If no one has visited in the last 15 minutes, the server goes to sleep. It may take **up to 50 seconds** to wake up on your first visit!)*
+
 CarDekho AI Matchmaker allows users to simply input their constraints (budget, seating, habits) and priorities (Safety, Mileage, Performance). It queries a local SQL database of cars, truncates the dataset into a strict context window, and prompts Groq's high-speed **Llama-3.3-70b-versatile** model to construct a personalized, well-reasoned shortlist of vehicles.
 
 <p align="center">
